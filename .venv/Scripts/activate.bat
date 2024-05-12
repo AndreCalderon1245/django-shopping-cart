@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Andre\OneDrive\Documentos\Visual Studio Code\Django-Ecommerce-main\.venv
+set VIRTUAL_ENV=C:\Users\andre_gbb\OneDrive\Documentos\Visual Studio 2022\django-shopping-cart\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 

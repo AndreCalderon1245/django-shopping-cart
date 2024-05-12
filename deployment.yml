@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-django-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-django-app
+  template:
+    metadata:
+      labels:
+        app: my-django-app
+    spec:
+      containers:
+        - name: my-django-container
+          image: canelazo/app:django  # Utiliza la imagen desde tu repositorio en Docker Hub
+          ports:
+            - containerPort: 8000
