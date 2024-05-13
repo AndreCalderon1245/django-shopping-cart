@@ -29,7 +29,7 @@ Asegúrate de tener instalado Python en tu sistema. Recomendamos usar Python 3.8
 
 1.  Inicia el servidor de desarrollo:
 
-   '''```bash
+   ```bash
    python manage.py runserver
 
 2. Abre tu navegador web y visita http://localhost:8000 para ver la aplicación.
