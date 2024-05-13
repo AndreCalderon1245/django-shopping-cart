@@ -14,7 +14,7 @@ Asegúrate de tener instalado Python en tu sistema. Recomendamos usar Python 3.8
    git clone https://github.com/AndreCalderon1245/django-shopping-cart.git
    cd tu_repositorio
 
-2. Crea un entorno virtual para instalar las dependencias:
+2. Crea un entorno virtual para instalar las dependencias o utiliza el ya existente:
 
    ```bash
    python -m venv env
