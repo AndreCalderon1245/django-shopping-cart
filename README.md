@@ -10,26 +10,26 @@ Asegúrate de tener instalado Python en tu sistema. Recomendamos usar Python 3.8
 
 1. Clona este repositorio en tu máquina local:
 
-   bash
+   ```bash
    git clone https://github.com/AndreCalderon1245/django-shopping-cart.git
    cd tu_repositorio
 
 2. Crea un entorno virtual para instalar las dependencias:
 
-   bash
+   ```bash
    python -m venv env
    .\env\Scripts\activate
 
 3. Instala las dependencias utilizando pip:
 
-   bash
+   ```bash
    pip install -r requirements.txt
 
 ## Ejecución
 
 1.  Inicia el servidor de desarrollo:
 
-   bash
+   '''```bash
    python manage.py runserver
 
 2. Abre tu navegador web y visita http://localhost:8000 para ver la aplicación.
